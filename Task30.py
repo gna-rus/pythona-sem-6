@@ -5,7 +5,8 @@
 Каждое число вводится с новой строки.
 '''
 
-a1, a2, a3, list1 = int(input()), int(input()), int(input()), []
+a1, a2 = int(input("Введите значение первого числа: ")), int(input("Введите шаг подсчета: "))
+a3, list1 = int(input("Введите размер массива: ")), []
 for i in range(a3):
-    list1.append(a1+a2*i)
+    list1.append(a1 + a2 * i)
 print(*list1)
